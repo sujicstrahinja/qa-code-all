@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47-bin.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/mysql-connector-java-5.1.47.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/jboss-common-jdbc-wrapper.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/slf4j-api-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.src.zip!/c3p0-0.9.1-pre6.src/dbms/oracle-thin/build/apidocs" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.src.zip!/c3p0-0.9.1-pre6.src/dbms/oracle-thin/dist/doc/apidocs-oracle-thin" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/jboss-common-jdbc-wrapper-src.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.src.zip!/c3p0-0.9.1-pre6.src/dbms/oracle-thin/src/classes" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.src.zip!/c3p0-0.9.1-pre6.src/relproj/debuggen/src/classes" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.src.zip!/c3p0-0.9.1-pre6.src/src/classes" />
+          <root url="jar://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src/lib/c3p0-0.9.1-pre6.src.zip!/c3p0-0.9.1-pre6.src/src/dist-static/examples" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47/src" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/SeleniumStuff/mysql-connector-java-5.1.47" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

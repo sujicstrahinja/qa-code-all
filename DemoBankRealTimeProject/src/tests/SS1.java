@@ -8,22 +8,27 @@ import org.testng.Assert;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class SS1 extends Driver {
+
+    private static String baseUrl = "";
+    private static String username = "";
+    private static String password = "";
 
     public static void main(String[] args) throws IOException {
 
         initialize("firefox");
-
-        String baseUrl = "http://www.demo.guru99.com/V4/";
-        driver.get(baseUrl);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         Properties properties = new Properties();
         FileInputStream propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
         properties.load(propertiesPath);
 
-        String username = properties.getProperty("username");
-        String password = properties.getProperty("password");
+        baseUrl = properties.getProperty("baseUrl");
+        username = properties.getProperty("username");
+        password = properties.getProperty("password");
+        driver.get(baseUrl);
 
         WebElement userIdInput = driver.findElement(By.name("uid"));
         WebElement passwordInput = driver.findElement(By.name("password"));
@@ -37,6 +42,10 @@ public class SS1 extends Driver {
         boolean isWelcomeTextPresent = false;
         if (welcomeTextCount == 0) { isWelcomeTextPresent = true; }
         Assert.assertTrue(isWelcomeTextPresent);
+
+        String actualTitle = driver.getTitle();
+        String expectedTitle = " Guru99 Bank Manager HomePage ";
+        Assert.assertEquals(actualTitle, expectedTitle);
 
         teardown();
     }

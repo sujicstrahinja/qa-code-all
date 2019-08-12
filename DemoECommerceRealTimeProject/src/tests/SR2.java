@@ -5,16 +5,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import java.util.concurrent.TimeUnit;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 
 public class SR2 extends Driver {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         initialize("firefox");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        String baseUrl = "http://live.guru99.com/index.php/";
+        Properties properties = new Properties();
+        FileInputStream propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
+        properties.load(propertiesPath);
+
+        String baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
         WebElement mobileLink = driver.findElement(By.linkText("MOBILE"));

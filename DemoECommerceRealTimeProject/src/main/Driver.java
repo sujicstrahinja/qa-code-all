@@ -9,6 +9,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
 
+import java.util.concurrent.TimeUnit;
+
 public class Driver {
 
     protected static WebDriver driver = null;
@@ -40,6 +42,8 @@ public class Driver {
             System.setProperty("webdriver.ie.driver", "C:\\Users\\sujic\\Downloads\\SeleniumStuff\\IEDriverServer.exe");
             WebDriver driver = new InternetExplorerDriver();
         }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     protected static void teardown() {

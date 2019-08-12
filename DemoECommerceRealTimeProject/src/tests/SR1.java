@@ -6,17 +6,24 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Properties;
 
 public class SR1 extends Driver {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         initialize("chrome");
 
-        String baseUrl = "http://live.guru99.com/index.php/";
+        Properties properties = new Properties();
+        FileInputStream propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
+        properties.load(propertiesPath);
+
+        String baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
         int thisIsDemoSiteShownCount = driver.findElements(By.xpath("//div[@class='page-title']/h2[contains(text(), 'This is demo site for')]")).size();

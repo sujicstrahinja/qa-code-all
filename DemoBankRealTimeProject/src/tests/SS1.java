@@ -6,10 +6,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,10 +23,13 @@ public class SS1 extends Driver {
     private static String username = "";
     private static String password = "";
 
-    public static void main(String[] args) throws IOException, InterruptedException {
-
+    @BeforeTest
+    public void initialize() {
         initialize("firefox");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    @Test
+    public void verifyLoginValidAndInvalidCases() throws IOException {
 
         Properties properties = new Properties();
         FileInputStream propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
@@ -60,12 +63,12 @@ public class SS1 extends Driver {
             loginButton.click();
 
             try {
-                    Alert alert = driver.switchTo().alert();
+                Alert alert = driver.switchTo().alert();
 
-                    String expectedAlertText = "User or Password is not valid";
-                    String actualAlertText = alert.getText();
-                    Assert.assertEquals(expectedAlertText, actualAlertText);
-                    driver.switchTo().alert().dismiss();
+                String expectedAlertText = "User or Password is not valid";
+                String actualAlertText = alert.getText();
+                Assert.assertEquals(expectedAlertText, actualAlertText);
+                driver.switchTo().alert().dismiss();
             } catch (NoAlertPresentException e) {
 
                 int welcomeTextCount = driver.findElements(By.cssSelector("marquee[class='heading3']")).size();
@@ -78,7 +81,11 @@ public class SS1 extends Driver {
 
             driver.get(baseUrl);
         }
+    }
 
+    @AfterTest
+    public void clearBrowser() {
         teardown();
     }
+
 }

@@ -12,6 +12,7 @@ import org.openqa.selenium.opera.OperaOptions;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
@@ -44,6 +45,8 @@ public class Driver {
             System.setProperty("webdriver.ie.driver", "C:\\Users\\sujic\\Downloads\\SeleniumStuff\\IEDriverServer.exe");
             WebDriver driver = new InternetExplorerDriver();
         }
+
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     protected static void teardown() {

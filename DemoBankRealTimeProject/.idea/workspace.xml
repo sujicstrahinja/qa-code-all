@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4412d6de-abb4-422b-b0e3-45fee9065061" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Guru99Maven/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoBankRealTimeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoBankRealTimeProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/main/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/main/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/parameters.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/parameters.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/~$parameters.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/tests/SS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/tests/SS1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/SS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guru99Maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Guru99Maven/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="117" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="117" />
+            <state relative-caret-position="359">
+              <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,14 +36,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/SS1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="447">
+              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#3115#3116#0" expanded="true" />
+                <element signature="e#3142#3143#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -72,9 +86,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/resources/settings.properties" />
         <option value="$PROJECT_DIR$/src/main/Driver.java" />
         <option value="$PROJECT_DIR$/src/tests/SS1.java" />
-        <option value="$PROJECT_DIR$/src/resources/settings.properties" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -91,6 +106,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,19 +141,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SeleniumStuff/poi-bin-4.1.0-20190412(1)/poi-4.1.0/lib/commons-math3-3.6.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testng.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml">
     <configuration name="SS1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.SS1" />
       <module name="DemoBankRealTimeProject" />
@@ -165,8 +181,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBankRealTimeProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SS1" />
+      <item itemvalue="TestNG.C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml" />
         <item itemvalue="Application.SS1" />
       </list>
     </recent_temporary>
@@ -185,17 +241,60 @@
       <workItem from="1565440144237" duration="1788000" />
       <workItem from="1565442698303" duration="201000" />
       <workItem from="1565608733168" duration="8081000" />
+      <workItem from="1565623449801" duration="1367000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="C__Users_sujic_IdeaProjects_DemoBankRealTimeProject_testng_xml - 2019.08.12 at 17h 33m 56s.xml">
+      <configuration name="C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_sujic_IdeaProjects_DemoBankRealTimeProject_testng_xml - 2019.08.12 at 17h 42m 37s.xml">
+      <configuration name="C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_sujic_IdeaProjects_DemoBankRealTimeProject_testng_xml - 2019.08.12 at 17h 44m 41s.xml">
+      <configuration name="C:/Users/sujic/IdeaProjects/DemoBankRealTimeProject/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13706000" />
+    <option name="totallyTimeSpent" value="15073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -224,22 +323,12 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="117" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/SeleniumStuff/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -250,9 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/SeleniumStuff/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -260,13 +346,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/SS1.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="359">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/SS1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#3115#3116#0" expanded="true" />
+            <element signature="e#3142#3143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -287,6 +397,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -309,6 +420,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

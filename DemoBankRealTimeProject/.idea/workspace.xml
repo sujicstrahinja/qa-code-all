@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4412d6de-abb4-422b-b0e3-45fee9065061" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/main/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/main/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/parameters.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/parameters.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/~$parameters.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/tests/SS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/tests/SS1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4412d6de-abb4-422b-b0e3-45fee9065061" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -241,7 +231,7 @@
       <workItem from="1565440144237" duration="1788000" />
       <workItem from="1565442698303" duration="201000" />
       <workItem from="1565608733168" duration="8081000" />
-      <workItem from="1565623449801" duration="1367000" />
+      <workItem from="1565623449801" duration="1563000" />
     </task>
     <servers />
   </component>
@@ -257,7 +247,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15073000" />
+    <option name="totallyTimeSpent" value="15269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -272,7 +262,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>

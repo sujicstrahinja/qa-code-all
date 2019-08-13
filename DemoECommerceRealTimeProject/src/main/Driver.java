@@ -9,11 +9,15 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
     protected static WebDriver driver = null;
+    protected static Properties properties = new Properties();
 
     protected static void initialize(String driverName) {
         if (driverName.equals("firefox")) {
@@ -41,6 +45,15 @@ public class Driver {
 
             System.setProperty("webdriver.ie.driver", "C:\\Users\\sujic\\Downloads\\SeleniumStuff\\IEDriverServer.exe");
             WebDriver driver = new InternetExplorerDriver();
+        }
+
+
+        try {
+            FileInputStream propertiesPath;
+            propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
+            properties.load(propertiesPath);
+        } catch (java.io.IOException e) {
+            e.printStackTrace();
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

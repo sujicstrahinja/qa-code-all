@@ -47,7 +47,6 @@ public class Driver {
             WebDriver driver = new InternetExplorerDriver();
         }
 
-
         try {
             FileInputStream propertiesPath;
             propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");

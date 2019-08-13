@@ -11,13 +11,9 @@ import java.util.Properties;
 
 public class SR2 extends Driver {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         initialize("firefox");
-
-        Properties properties = new Properties();
-        FileInputStream propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
-        properties.load(propertiesPath);
 
         String baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);

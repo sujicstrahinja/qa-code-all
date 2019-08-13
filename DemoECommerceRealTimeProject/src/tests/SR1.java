@@ -12,11 +12,13 @@ import java.util.List;
 
 public class SR1 extends Driver {
 
+    private static String baseUrl= "";
+
     public static void main(String[] args) {
 
         initialize("chrome");
 
-        String baseUrl = properties.getProperty("baseUrl");
+        baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
         int thisIsDemoSiteShownCount = driver.findElements(By.xpath("//div[@class='page-title']/h2[contains(text(), 'This is demo site for')]")).size();

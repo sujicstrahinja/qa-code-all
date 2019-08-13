@@ -5,15 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import java.io.IOException;
-
 public class SR3 extends Driver {
+
+    private static String baseUrl= "";
 
     public static void main(String[] args) {
 
         initialize("chrome");
 
-        String baseUrl = properties.getProperty("baseUrl");
+        baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
         WebElement mobileLink = driver.findElement(By.linkText("MOBILE"));

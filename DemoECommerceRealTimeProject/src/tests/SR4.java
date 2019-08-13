@@ -12,11 +12,13 @@ import java.util.Set;
 
 public class SR4 extends Driver {
 
+    private static String baseUrl= "";
+
     public static void main(String[] args) {
 
         initialize("chrome");
 
-        String baseUrl = properties.getProperty("baseUrl");
+        baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
         WebElement mobileLink = driver.findElement(By.linkText("MOBILE"));

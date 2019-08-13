@@ -5,17 +5,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-
 public class SR2 extends Driver {
+
+    private static String baseUrl= "";
 
     public static void main(String[] args) {
 
         initialize("firefox");
 
-        String baseUrl = properties.getProperty("baseUrl");
+        baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
         WebElement mobileLink = driver.findElement(By.linkText("MOBILE"));

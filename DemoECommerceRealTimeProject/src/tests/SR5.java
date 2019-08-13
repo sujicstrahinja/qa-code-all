@@ -3,15 +3,11 @@ package tests;
 import main.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import java.util.List;
 
 public class SR5 extends Driver {
 
-    protected static String baseUrl= "";
+    private static String baseUrl= "";
 
     public static void main(String[] args) {
 
@@ -63,8 +59,8 @@ public class SR5 extends Driver {
         WebElement messageTextarea = driver.findElement(By.id("message"));
         messageTextarea.sendKeys("djuro stigli televizori");
 
-        WebElement shareWishilistSendEmailButton = driver.findElement(By.xpath("//span[text()='Share Wishlist']"));
-        shareWishilistSendEmailButton.click();
+        WebElement shareWishlistSendEmailButton = driver.findElement(By.xpath("//span[text()='Share Wishlist']"));
+        shareWishlistSendEmailButton.click();
 
         int wishlistSharedTextCount = driver.findElements(By.xpath("//span[text()='Your Wishlist has been shared.']")).size();
         Assert.assertEquals(wishlistSharedTextCount, 1);

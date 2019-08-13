@@ -1,58 +1,44 @@
 package tests;
 
+import main.DataProviderClass;
 import main.Driver;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 public class SS1 extends Driver {
 
     private static String baseUrl = "";
-    private static String username = "";
-    private static String password = "";
+//    private static String username = "";
+//    private static String password = "";
 
     @BeforeTest
     public void initialize() {
         initialize("firefox");
     }
 
-    @Test
-    public void verifyLoginValidAndInvalidCases() throws IOException {
-
-        Properties properties = new Properties();
-        FileInputStream propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
-        properties.load(propertiesPath);
+    @Test(dataProvider = "LoginCredentialsProvider", dataProviderClass = DataProviderClass.class)
+    public void verifyLoginValidAndInvalidCases(String username, String password) {
 
         baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
 
-        String fileName = "parameters.xlsx";
-        String sheetName = "Sheet1";
-        String filePath = System.getProperty("user.dir")+"\\src\\resources";
-        File file = new File(filePath+"\\"+fileName);
-        FileInputStream inputStream = new FileInputStream(file);
-        Workbook workbook = new XSSFWorkbook(inputStream);
+//        String fileName = "parameters.xlsx";
+//        String sheetName = "Sheet1";
+//        String filePath = System.getProperty("user.dir")+"\\src\\resources";
+//        File file = new File(filePath+"\\"+fileName);
+//        FileInputStream inputStream = new FileInputStream(file);
+//        Workbook workbook = new XSSFWorkbook(inputStream);
+//
+//        Sheet firstSheet = workbook.getSheet(sheetName);
 
-        Sheet firstSheet = workbook.getSheet(sheetName);
-//        int firstSheetRowCount = firstSheet.getLastRowNum()-firstSheet.getFirstRowNum();
+//        for (int i = 1; i < firstSheet.getLastRowNum()+1; i++) {
+//            Row row = firstSheet.getRow(i);
 
-        for (int i = 1; i < firstSheet.getLastRowNum()+1; i++) {
-            Row row = firstSheet.getRow(i);
-
-            username = row.getCell(1).getStringCellValue();
-            password = row.getCell(2).getStringCellValue();
+//            SS1.username = username;
+//            SS1.password = password;
 
             WebElement userIdInput = driver.findElement(By.name("uid"));
             WebElement passwordInput = driver.findElement(By.name("password"));
@@ -71,8 +57,8 @@ public class SS1 extends Driver {
                 driver.switchTo().alert().dismiss();
             } catch (NoAlertPresentException e) {
 
-                int welcomeTextCount = driver.findElements(By.cssSelector("marquee[class='heading3']")).size();
-                Assert.assertEquals(welcomeTextCount, 1);
+                int managerIdTextCount = driver.findElements(By.xpath("//td[text()='Manger Id : " + username + "']")).size();
+                Assert.assertEquals(managerIdTextCount, 1);
 
                 String actualTitle = driver.getTitle();
                 String expectedTitle = "Guru99 Bank Manager HomePage";
@@ -80,12 +66,11 @@ public class SS1 extends Driver {
             }
 
             driver.get(baseUrl);
-        }
+//        }
     }
 
     @AfterTest
     public void clearBrowser() {
         teardown();
     }
-
 }

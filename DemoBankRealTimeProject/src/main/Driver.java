@@ -17,6 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class Driver {
 
     protected static WebDriver driver = null;
+    protected static Properties properties = new Properties();
 
     protected static void initialize(String driverName) {
         if (driverName.equals("firefox")) {
@@ -44,6 +45,14 @@ public class Driver {
 
             System.setProperty("webdriver.ie.driver", "C:\\Users\\sujic\\Downloads\\SeleniumStuff\\IEDriverServer.exe");
             WebDriver driver = new InternetExplorerDriver();
+        }
+
+        try {
+            FileInputStream propertiesPath = null;
+            propertiesPath = new FileInputStream(System.getProperty("user.dir")+"\\src\\resources\\settings.properties");
+            properties.load(propertiesPath);
+        } catch (java.io.IOException e) {
+            e.printStackTrace();
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

@@ -11,8 +11,6 @@ import org.testng.annotations.Test;
 public class SS1 extends Driver {
 
     private static String baseUrl = "";
-//    private static String username = "";
-//    private static String password = "";
 
     @BeforeTest
     public void initialize() {
@@ -24,21 +22,6 @@ public class SS1 extends Driver {
 
         baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
-
-//        String fileName = "parameters.xlsx";
-//        String sheetName = "Sheet1";
-//        String filePath = System.getProperty("user.dir")+"\\src\\resources";
-//        File file = new File(filePath+"\\"+fileName);
-//        FileInputStream inputStream = new FileInputStream(file);
-//        Workbook workbook = new XSSFWorkbook(inputStream);
-//
-//        Sheet firstSheet = workbook.getSheet(sheetName);
-
-//        for (int i = 1; i < firstSheet.getLastRowNum()+1; i++) {
-//            Row row = firstSheet.getRow(i);
-
-//            SS1.username = username;
-//            SS1.password = password;
 
             WebElement userIdInput = driver.findElement(By.name("uid"));
             WebElement passwordInput = driver.findElement(By.name("password"));
@@ -66,7 +49,6 @@ public class SS1 extends Driver {
             }
 
             driver.get(baseUrl);
-//        }
     }
 
     @AfterTest

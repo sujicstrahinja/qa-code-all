@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36f1ea3-6c1c-4a19-9462-50f9970ef558" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/main/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoECommerceRealTimeProject/src/tests/SR5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Manual.logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Selenium.logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoggingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoggingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Manual.logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Selenium.logs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoggingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoggingDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,11 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PhantomJSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,8 +124,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2-test2626b418.xml" />
         <option value="$PROJECT_DIR$/src/test/java/HTMLUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PhantomJSTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PhantomJSTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RobotTest.java" />
       </list>
     </option>
   </component>
@@ -180,26 +177,6 @@
               <item name="Guru99Maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="Guru99Maven" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guru99Maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guru99Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guru99Maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guru99Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guru99Maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guru99Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,14 +185,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guru99Maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guru99Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="excel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhantomJSTest">
+  <component name="RunManager" selected="Application.RobotTest">
     <configuration name="HTMLUnitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HTMLUnitTest" />
       <module name="Guru99Maven" />
@@ -280,12 +249,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/sujic/IdeaProjects/Guru99Maven/testngCrossbrowser.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RobotTest" />
       <module name="Guru99Maven" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngCrossbrowser.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,18 +269,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingDemo" />
-      <item itemvalue="TestNG.C:/Users/sujic/IdeaProjects/Guru99Maven/testngCrossbrowser.xml" />
       <item itemvalue="TestNG.TakeScreenshot" />
       <item itemvalue="Application.HTMLUnitTest" />
       <item itemvalue="Application.PhantomJSTest" />
+      <item itemvalue="Application.RobotTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RobotTest" />
         <item itemvalue="Application.PhantomJSTest" />
         <item itemvalue="Application.HTMLUnitTest" />
         <item itemvalue="Application.LoggingDemo" />
         <item itemvalue="TestNG.TakeScreenshot" />
-        <item itemvalue="TestNG.C:/Users/sujic/IdeaProjects/Guru99Maven/testngCrossbrowser.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +313,7 @@
       <workItem from="1565345408899" duration="1253000" />
       <workItem from="1565356821966" duration="23000" />
       <workItem from="1565609014789" duration="1860000" />
-      <workItem from="1565710602881" duration="4222000" />
+      <workItem from="1565710602881" duration="5799000" />
     </task>
     <servers />
   </component>
@@ -384,13 +350,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96286000" />
+    <option name="totallyTimeSpent" value="97863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,8 +365,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39443535" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39443535" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -785,20 +751,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PhantomJSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="169">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

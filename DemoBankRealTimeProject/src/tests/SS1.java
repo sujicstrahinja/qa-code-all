@@ -7,6 +7,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.apache.commons.io.FileUtils;
+
+import java.io.File;
+import java.io.IOException;
 
 public class SS1 extends Driver {
 
@@ -18,7 +22,7 @@ public class SS1 extends Driver {
     }
 
     @Test(dataProvider = "LoginCredentialsProvider", dataProviderClass = DataProviderClass.class)
-    public void verifyLoginValidAndInvalidCases(String username, String password) {
+    public void verifyLoginValidAndInvalidCases(String username, String password) throws IOException {
 
         baseUrl = properties.getProperty("baseUrl");
         driver.get(baseUrl);
@@ -42,6 +46,12 @@ public class SS1 extends Driver {
 
                 int managerIdTextCount = driver.findElements(By.xpath("//td[text()='Manger Id : " + username + "']")).size();
                 Assert.assertEquals(managerIdTextCount, 1);
+
+                TakesScreenshot screenshot =((TakesScreenshot)driver);
+                File screenshotFileFrom = screenshot.getScreenshotAs(OutputType.FILE);
+                String savePath = System.getProperty("user.dir")+"\\Screenshots\\screenshot-of-" + username + ".png";
+                File screenshotFileTo = new File(savePath);
+                FileUtils.copyFile(screenshotFileFrom, screenshotFileTo);
 
                 String actualTitle = driver.getTitle();
                 String expectedTitle = "Guru99 Bank Manager HomePage";

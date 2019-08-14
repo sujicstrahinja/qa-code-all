@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac367e5b-92c0-44c6-a53d-0cfbdf6c1bbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DemoBankRealTimeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoBankRealTimeProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SR1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SR1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SR2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SR2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SR3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SR3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SR4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SR4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SR5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SR5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoECommerceRealTimeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoECommerceRealTimeProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/main/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/main/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/resources/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/settings.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,17 +29,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="10" selection-end-column="43" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tests/SR5.java">
+        <entry file="file://$PROJECT_DIR$/src/tests/SR6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="396">
+              <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,13 +62,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/resources/settings.properties" />
         <option value="$PROJECT_DIR$/src/tests/SR5.java" />
         <option value="$PROJECT_DIR$/src/tests/SR4.java" />
         <option value="$PROJECT_DIR$/src/tests/SR2.java" />
         <option value="$PROJECT_DIR$/src/tests/SR1.java" />
         <option value="$PROJECT_DIR$/src/main/Driver.java" />
         <option value="$PROJECT_DIR$/src/tests/SR3.java" />
+        <option value="$PROJECT_DIR$/src/resources/settings.properties" />
+        <option value="$PROJECT_DIR$/src/tests/test.java" />
+        <option value="$PROJECT_DIR$/src/tests/SR6.java" />
       </list>
     </option>
   </component>
@@ -122,7 +128,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SeleniumStuff/testng-6.14.3.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SeleniumStuff/log4j-core-2.12.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -141,33 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SR5">
-    <configuration name="SR1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.SR1" />
-      <module name="DemoECommerceRealTimeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SR2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tests.SR2" />
-      <module name="DemoECommerceRealTimeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SR6">
     <configuration name="SR3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.SR3" />
       <module name="DemoECommerceRealTimeProject" />
@@ -207,13 +187,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SR6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.SR6" />
+      <module name="DemoECommerceRealTimeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.test" />
+      <module name="DemoECommerceRealTimeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SR6" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.SR5" />
         <item itemvalue="Application.SR4" />
         <item itemvalue="Application.SR3" />
-        <item itemvalue="Application.SR2" />
-        <item itemvalue="Application.SR1" />
       </list>
     </recent_temporary>
   </component>
@@ -234,17 +240,19 @@
       <workItem from="1565696109690" duration="21000" />
       <workItem from="1565697530700" duration="2368000" />
       <workItem from="1565710520574" duration="36000" />
+      <workItem from="1565792738603" duration="760000" />
+      <workItem from="1565793784766" duration="4629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14021000" />
+    <option name="totallyTimeSpent" value="19410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,17 +334,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
+    <entry file="file://$PROJECT_DIR$/src/resources/orders.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="10" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SR5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="189">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/SR6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

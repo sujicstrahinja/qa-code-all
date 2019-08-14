@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4412d6de-abb4-422b-b0e3-45fee9065061" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DemoBankRealTimeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoBankRealTimeProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/resources/~$parameters.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/tests/SS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoBankRealTimeProject/tests/SS1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/SS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Verify Login Test Cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Verify Login Test Cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Verify Login Test Cases.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/Verify Login Test Cases.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.SS1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-tests.SS1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guru99Maven/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Guru99Maven/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4412d6de-abb4-422b-b0e3-45fee9065061" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/SS1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="51" column="81" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="81" />
+            <state relative-caret-position="238">
+              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1893#1894#0" expanded="true" />
@@ -265,7 +250,7 @@
       <workItem from="1565608733168" duration="8081000" />
       <workItem from="1565623449801" duration="1563000" />
       <workItem from="1565696172566" duration="1275000" />
-      <workItem from="1565791889925" duration="749000" />
+      <workItem from="1565791889925" duration="808000" />
     </task>
     <servers />
   </component>
@@ -290,7 +275,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17293000" />
+    <option name="totallyTimeSpent" value="17352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
@@ -305,7 +290,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SS1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="51" column="81" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="81" />
+        <state relative-caret-position="238">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1893#1894#0" expanded="true" />

@@ -17,46 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PhantomJSTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AutoITTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="410">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,6 +96,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/PhantomJSTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RobotTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AutoITTest.java" />
       </list>
     </option>
   </component>
@@ -161,6 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,8 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RobotTest">
+  <component name="RunManager" selected="TestNG.AutoITTest">
     <configuration name="HTMLUnitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HTMLUnitTest" />
       <module name="Guru99Maven" />
@@ -256,10 +226,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoITTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Guru99Maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TakeScreenshot" />
+      <option name="MAIN_CLASS_NAME" value="AutoITTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -269,18 +239,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LoggingDemo" />
-      <item itemvalue="TestNG.TakeScreenshot" />
       <item itemvalue="Application.HTMLUnitTest" />
       <item itemvalue="Application.PhantomJSTest" />
       <item itemvalue="Application.RobotTest" />
+      <item itemvalue="TestNG.AutoITTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutoITTest" />
         <item itemvalue="Application.RobotTest" />
         <item itemvalue="Application.PhantomJSTest" />
         <item itemvalue="Application.HTMLUnitTest" />
         <item itemvalue="Application.LoggingDemo" />
-        <item itemvalue="TestNG.TakeScreenshot" />
       </list>
     </recent_temporary>
   </component>
@@ -313,17 +283,12 @@
       <workItem from="1565345408899" duration="1253000" />
       <workItem from="1565356821966" duration="23000" />
       <workItem from="1565609014789" duration="1860000" />
-      <workItem from="1565710602881" duration="5799000" />
+      <workItem from="1565710602881" duration="5853000" />
+      <workItem from="1565772835203" duration="2918000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Grid - 2019.08.02 at 22h 41m 46s.xml">
-      <configuration name="Grid" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Grid - 2019.08.02 at 22h 48m 03s.xml">
-      <configuration name="Grid" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Grid - 2019.08.02 at 22h 50m 42s.xml">
       <configuration name="Grid" configurationId="TestNG" />
     </history-entry>
@@ -348,15 +313,21 @@
     <history-entry file="TakeScreenshot - 2019.08.06 at 13h 05m 05s.xml">
       <configuration name="TakeScreenshot" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AutoITTest - 2019.08.14 at 11h 20m 34s.xml">
+      <configuration name="AutoITTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AutoITTest - 2019.08.14 at 11h 24m 58s.xml">
+      <configuration name="AutoITTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97863000" />
+    <option name="totallyTimeSpent" value="100835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39443535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39443535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -684,12 +655,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Manual.logs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Selenium.logs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Manual.logs" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Selenium.logs" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2-test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -714,9 +681,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/output.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/output.log" />
     <entry file="file://$PROJECT_DIR$/output.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -741,23 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PhantomJSTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -768,12 +716,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="444">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AutoITTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>

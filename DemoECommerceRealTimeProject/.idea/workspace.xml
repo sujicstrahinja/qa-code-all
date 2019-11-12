@@ -3,16 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ac367e5b-92c0-44c6-a53d-0cfbdf6c1bbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../DemoBankRealTimeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoBankRealTimeProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoBankRealTimeProject/src/main/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoBankRealTimeProject/src/main/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DemoECommerceRealTimeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DemoECommerceRealTimeProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/main/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/main/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/resources/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/main/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/resources/orders.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/SR6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoECommerceRealTimeProject/tests/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/SR6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/SR6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,16 +33,54 @@
         <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/SR7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/orders.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/SR6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,6 +111,8 @@
         <option value="$PROJECT_DIR$/src/tests/SR3.java" />
         <option value="$PROJECT_DIR$/src/resources/settings.properties" />
         <option value="$PROJECT_DIR$/src/tests/test.java" />
+        <option value="$PROJECT_DIR$/src/tests/SR7.java" />
+        <option value="$PROJECT_DIR$/src/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/tests/SR6.java" />
       </list>
     </option>
@@ -86,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +164,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -128,12 +171,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SeleniumStuff/log4j-core-2.12.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SeleniumStuff/apache-log4j-2.12.0-bin/log4j-web-2.12.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,17 +287,21 @@
       <workItem from="1565710520574" duration="36000" />
       <workItem from="1565792738603" duration="760000" />
       <workItem from="1565793784766" duration="4629000" />
+      <workItem from="1566050328875" duration="3103000" />
+      <workItem from="1567676623589" duration="560000" />
+      <workItem from="1569433037500" duration="3709000" />
+      <workItem from="1571906339053" duration="48000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19410000" />
+    <option name="totallyTimeSpent" value="26830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,13 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SR4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -334,16 +376,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/orders.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/orders.log" />
+    <entry file="file://$PROJECT_DIR$/src/tests/test.java" />
     <entry file="file://$PROJECT_DIR$/src/tests/SR5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -357,14 +391,44 @@
     <entry file="file://$PROJECT_DIR$/src/resources/settings.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/orders.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/SR6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="90" column="19" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/SR7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

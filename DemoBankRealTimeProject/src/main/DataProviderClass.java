@@ -7,7 +7,7 @@ public class DataProviderClass {
     @DataProvider(name="LoginCredentialsProvider")
     public Object[][] getLoginCredentialsDataProvider() {
         return new Object[][] {
-                {"mngr215270", "umujuqA"},
+                {"mngr230255", "AbUzuhA"},
                 {"xxx", "umujuqA"},
                 {"mngr215270", "xxx"},
                 {"xxx", "xxx"}

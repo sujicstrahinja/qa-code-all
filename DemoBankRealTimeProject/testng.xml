@@ -1,9 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="Verify Login Test Cases">
+<suite name="Guru99 Bank Test Suite">
+    <test verbose="2" preserve-order="true" name="Customer Verify Balance enquiry">
         <classes>
-            <class name="tests.SS1"/>
+            <class name="tests.customer.SC4"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Customer Verify Change Password and Login" enabled="false">
+        <classes>
+            <class name="tests.customer.SC1"/>
+            <class name="tests.customer.SC2"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Customer Verify Balance enquiry" enabled="false">
+        <classes>
+            <class name="tests.customer.SC4"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Customer Verify Mini statement" enabled="false">
+        <classes>
+            <class name="tests.customer.SC7"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Customer Verify Fund Transfer and customized statement, Balance enquiry " enabled="false">
+        <classes>
+            <class name="tests.customer.SC8"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Customer Verify Mini statement" enabled="false">
+        <classes>
+            <class name="tests.customer.SC14"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Customer Verify Customised Statement" enabled="false">
+        <classes>
+            <class name="tests.customer.SC16"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Manager Verify Change Password and Login" enabled="false">
+        <classes>
+            <class name="tests.manager.SM1"/>
+            <class name="tests.manager.SM2"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Manager Verify Add New Customer and Account" enabled="false">
+        <classes>
+            <class name="tests.manager.SM4"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Manager Verify Delete Account and check  Mini Statement, Balance Enquiry" enabled="false">
+        <classes>
+            <class name="tests.manager.SM6"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Manager Verify Delete Customer and Edit customer" enabled="false">
+        <classes>
+            <class name="tests.manager.SM11"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Manager Verify Fund Transfer and Customized Statement" enabled="false">
+        <classes>
+            <class name="tests.manager.SM16"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Manager Verify Edit Customer" enabled="false">
+        <classes>
+            <class name="tests.manager.SM23"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Manager Verify Deposit" enabled="false">
+        <classes>
+            <class name="tests.manager.SM24"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Verify Deposit" enabled="false">
+        <classes>
+            <class name="tests.manager.SM27"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Verify Customized Statement" enabled="false">
+        <classes>
+            <class name="tests.manager.SM31"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Verify Edit account" enabled="false">
+        <classes>
+            <class name="tests.manager.SM34"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Verify Logout" enabled="false">
+        <classes>
+            <class name="tests.manager.SM35"/>
+        </classes>
+    </test>
+    <test  verbose="2" preserve-order="true" name="Verify Customer account created" enabled="false">
+        <classes>
+            <class name="tests.manager.SM36"/>
         </classes>
     </test>
 </suite>

@@ -1,85 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-14T14:22:23Z" name="All Test Suite" finished-at="2019-08-14T14:23:48Z" duration-ms="84348">
+  <suite started-at="2019-11-12T20:26:29Z" name="Guru99 Bank Test Suite" finished-at="2019-11-12T20:26:50Z" duration-ms="20764">
     <groups>
     </groups>
-    <test started-at="2019-08-14T14:22:23Z" name="Verify Login Test Cases" finished-at="2019-08-14T14:23:48Z" duration-ms="84348">
-      <class name="tests.SS1">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.SS1@37374a5e]" started-at="2019-08-14T14:22:23Z" name="initialize" finished-at="2019-08-14T14:22:48Z" duration-ms="24437" status="PASS">
+    <test started-at="2019-11-12T20:26:29Z" name="Customer Verify Customised Statement" finished-at="2019-11-12T20:26:50Z" duration-ms="20764">
+      <class name="tests.customer.SC16">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.customer.SC16@69b0fd6f]" started-at="2019-11-12T20:26:04Z" name="beforeSuite" finished-at="2019-11-12T20:26:29Z" duration-ms="25600" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method signature="verifyLoginValidAndInvalidCases(java.lang.String, java.lang.String)[pri:0, instance:tests.SS1@37374a5e]" started-at="2019-08-14T14:22:48Z" name="verifyLoginValidAndInvalidCases" data-provider="LoginCredentialsProvider" finished-at="2019-08-14T14:23:05Z" duration-ms="17312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr215270]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[umujuqA]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="verifyACustomerCanSeeCustomizedStatementOfOnlyHisAccount()[pri:0, instance:tests.customer.SC16@69b0fd6f]" started-at="2019-11-12T20:26:29Z" name="verifyACustomerCanSeeCustomizedStatementOfOnlyHisAccount" finished-at="2019-11-12T20:26:38Z" duration-ms="8379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginValidAndInvalidCases -->
-        <test-method signature="verifyLoginValidAndInvalidCases(java.lang.String, java.lang.String)[pri:0, instance:tests.SS1@37374a5e]" started-at="2019-08-14T14:23:05Z" name="verifyLoginValidAndInvalidCases" data-provider="LoginCredentialsProvider" finished-at="2019-08-14T14:23:15Z" duration-ms="10269" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xxx]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[umujuqA]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyACustomerCanSeeCustomizedStatementOfOnlyHisAccount -->
+        <test-method signature="verifyCustomizedStatementIsNotGeneratedWhenFromDateIsGreaterThanToDate()[pri:0, instance:tests.customer.SC16@69b0fd6f]" started-at="2019-11-12T20:26:38Z" name="verifyCustomizedStatementIsNotGeneratedWhenFromDateIsGreaterThanToDate" finished-at="2019-11-12T20:26:43Z" duration-ms="5591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginValidAndInvalidCases -->
-        <test-method signature="verifyLoginValidAndInvalidCases(java.lang.String, java.lang.String)[pri:0, instance:tests.SS1@37374a5e]" started-at="2019-08-14T14:23:15Z" name="verifyLoginValidAndInvalidCases" data-provider="LoginCredentialsProvider" finished-at="2019-08-14T14:23:23Z" duration-ms="7766" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr215270]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xxx]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyCustomizedStatementIsNotGeneratedWhenFromDateIsGreaterThanToDate -->
+        <test-method signature="verifySystemBehaviorWhenWrongAccountNumberIsEnteredInTheCustomizedStatement()[pri:0, instance:tests.customer.SC16@69b0fd6f]" started-at="2019-11-12T20:26:43Z" name="verifySystemBehaviorWhenWrongAccountNumberIsEnteredInTheCustomizedStatement" finished-at="2019-11-12T20:26:50Z" duration-ms="6763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginValidAndInvalidCases -->
-        <test-method signature="verifyLoginValidAndInvalidCases(java.lang.String, java.lang.String)[pri:0, instance:tests.SS1@37374a5e]" started-at="2019-08-14T14:23:23Z" name="verifyLoginValidAndInvalidCases" data-provider="LoginCredentialsProvider" finished-at="2019-08-14T14:23:31Z" duration-ms="7570" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xxx]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xxx]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginValidAndInvalidCases -->
-        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:tests.SS1@37374a5e]" started-at="2019-08-14T14:23:31Z" name="clearBrowser" finished-at="2019-08-14T14:23:48Z" duration-ms="16841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearBrowser -->
-      </class> <!-- tests.SS1 -->
-    </test> <!-- Verify Login Test Cases -->
-  </suite> <!-- All Test Suite -->
+        </test-method> <!-- verifySystemBehaviorWhenWrongAccountNumberIsEnteredInTheCustomizedStatement -->
+      </class> <!-- tests.customer.SC16 -->
+    </test> <!-- Customer Verify Customised Statement -->
+  </suite> <!-- Guru99 Bank Test Suite -->
 </testng-results>

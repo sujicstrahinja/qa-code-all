@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DemoBankRealTimeProject(failed)">
+    <classes>
+      <class name="tests.manager.SM4">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verifyAddingNewCustomerRedirectsToDetailsOfAddedCustomer"/>
+        </methods>
+      </class> <!-- tests.manager.SM4 -->
+    </classes>
+  </test> <!-- DemoBankRealTimeProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

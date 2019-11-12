@@ -1,6 +1,8 @@
 package main;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -10,7 +12,6 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -18,6 +19,7 @@ public class Driver {
 
     protected static WebDriver driver = null;
     protected static Properties properties = new Properties();
+    private static String baseUrl = "";
 
     protected static void initialize(String driverName) {
         if (driverName.equals("firefox")) {
@@ -56,6 +58,21 @@ public class Driver {
         }
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    protected static void login(String username, String password) {
+        baseUrl = properties.getProperty("baseUrl");
+        driver.get(baseUrl);
+
+        WebElement userIdInput = driver.findElement(By.name("uid"));
+        WebElement passwordInput = driver.findElement(By.name("password"));
+        WebElement loginButton = driver.findElement(By.name("btnLogin"));
+
+        userIdInput.sendKeys(username);
+        passwordInput.sendKeys(password);
+        loginButton.click();
+
+
     }
 
     protected static void teardown() {

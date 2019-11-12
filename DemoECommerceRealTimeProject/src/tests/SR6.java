@@ -1,6 +1,8 @@
 package tests;
 
 import main.Driver;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -9,7 +11,8 @@ import java.util.List;
 
 public class SR6 extends Driver {
 
-    private static String baseUrl= "";
+    private static String baseUrl = "";
+    Logger logger = LogManager.getLogger(SR6.class);
 
     public static void main(String[] args) {
 
@@ -86,7 +89,7 @@ public class SR6 extends Driver {
         Assert.assertEquals(orderReceivedTextCount, 1);
 
         String orderNumber = driver.findElement(By.xpath("//a[contains(@href, 'http://live.guru99.com/index.php/sales/order/view/order_id')]")).getText();
-        System.out.println(orderNumber);
+//        System.out.println(orderNumber);
 
         teardown();
     }
